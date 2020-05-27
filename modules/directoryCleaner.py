@@ -10,7 +10,6 @@ class directoryCleaner(object):
 
         self.ext_compressed = ["zip", "rar"]
         self.ext_videos = ["avi", "mp4", "mkv"]
-        self.ext_subtitle = "srt"
         self.ext_pictures = ["ico", "bmp", "jpg", "jpeg", "png", "gif"]
 
         self.music_folder = os.path.join(os.path.expanduser("~"), "Music")
