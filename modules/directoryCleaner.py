@@ -112,5 +112,3 @@ class directoryCleaner(object):
 
         else:
             print("\n[-] Directory invalid")
-
-        
