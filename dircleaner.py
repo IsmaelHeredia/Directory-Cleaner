@@ -11,7 +11,7 @@ from modules import directoryCleaner
 def main():
     parser = argparse.ArgumentParser(description="Enter arguments to use the script")	
     parser.add_argument("-clean", dest="clean", help="Enter directory to clean")
-    parser.add_argument("-clean-downloads", action="store_true", help="Clean downloads directory")
+    parser.add_argument("-clean-downloads", action="store_true", help="Clean the download folder")
 
     results = parser.parse_args()
 
