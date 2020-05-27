@@ -6,6 +6,6 @@ Most files are moved to the documents folder with directories created with the n
 
 The script has two commands:
 
--clean <directory>: Clear selected directory
+-clean <directory>: Clean selected directory
 
 -clean-downloads: Clean the download folder
